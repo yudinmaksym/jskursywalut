@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>JavaScript</title>
+
+    <!-- Ссылки WinJS -->
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/base.js"></script>
+    <script src="WinJS/js/ui.js"></script>
+
+
+    <!-- Ссылки JavaScript -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/page3.js"></script>
+    
+
+    
+</head>
+<body class="win-type-body">
+    <div class="navbar">
+        <button id="backtopresent" class="backtopresent">Back to Present Rates</button>
+        <button id="nextpage" class="nextpage">Go To Dates</button>
+        <button id="close" class="close">Close App</button>
+
+    </div>
+    <p class="titl">Kursy dla wybranej daty</p>
+
+    <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+        <div class="smallListIconTextItem">
+            <div class="smallListIconTextItem-Detail">
+                <h4 class="win-h4" id="win-h4" data-win-bind="textContent: names"></h4>
+                <h6 class="win-h6" data-win-bind="textContent: przelicznik"></h6>
+                <h6 class="win-h6" data-win-bind="textContent: kod"></h6>
+                <h6 class="win-h6" data-win-bind="textContent: kurs"></h6>
+            </div>
+        </div>
+    </div>
+    <div id="listView"
+         class="win-selectionstylefilled"
+         data-win-control="WinJS.UI.ListView"
+         data-win-options="{
+            itemDataSource: Sample.ListView.data.dataSource,
+            itemTemplate: select('.smallListIconTextTemplate'),
+            selectionMode: 'none',
+            tapBehavior: 'none',
+            layout: { type: WinJS.UI.ListLayout }
+    }">
+    </div>
+</body>
+</html>

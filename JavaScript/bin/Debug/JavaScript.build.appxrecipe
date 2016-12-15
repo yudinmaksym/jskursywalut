@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-TBA7V5P</Machine>
+    <WindowsUser>админ</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e83592d2-c27f-46b5-9d73-5ece5f3d9a59</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\dates.html">
+      <PackagePath>dates.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\page3.html">
+      <PackagePath>page3.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\default.gif">
+      <PackagePath>images\default.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Screenshot_1.png">
+      <PackagePath>images\Screenshot_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Screenshot_2.png">
+      <PackagePath>images\Screenshot_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Screenshot_3.png">
+      <PackagePath>images\Screenshot_3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\page3.js">
+      <PackagePath>js\page3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\scriptfordir.js">
+      <PackagePath>js\scriptfordir.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\test.txt">
+      <PackagePath>test.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

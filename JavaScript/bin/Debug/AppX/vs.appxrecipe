@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-TBA7V5P</Machine>
+    <WindowsUser>админ</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e83592d2-c27f-46b5-9d73-5ece5f3d9a59</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>488AE93656E091EDBF6707A6A9C74AE0AD3FAD61CBD3EB646D4995F935D87FE5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e83592d2-c27f-46b5-9d73-5ece5f3d9a59_1.0.0.0_neutral__kwmcxzszfer2y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e83592d2-c27f-46b5-9d73-5ece5f3d9a59_kwmcxzszfer2y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e83592d2-c27f-46b5-9d73-5ece5f3d9a59</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=admin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-28T14:18:42.470</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\dates.html">
+      <PackagePath>dates.html</PackagePath>
+      <Modified>2016-12-15T16:52:43.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2016-12-15T13:07:24.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\page3.html">
+      <PackagePath>page3.html</PackagePath>
+      <Modified>2016-12-15T13:07:24.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\default.gif">
+      <PackagePath>images\default.gif</PackagePath>
+      <Modified>2016-06-27T17:14:34.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Screenshot_1.png">
+      <PackagePath>images\Screenshot_1.png</PackagePath>
+      <Modified>2016-06-27T17:10:26.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Screenshot_2.png">
+      <PackagePath>images\Screenshot_2.png</PackagePath>
+      <Modified>2016-06-27T17:15:58.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Screenshot_3.png">
+      <PackagePath>images\Screenshot_3.png</PackagePath>
+      <Modified>2016-06-27T17:29:40.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T20:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2016-06-27T17:05:55.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2016-11-27T13:20:44.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\page3.js">
+      <PackagePath>js\page3.js</PackagePath>
+      <Modified>2016-12-15T13:14:27.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\scriptfordir.js">
+      <PackagePath>js\scriptfordir.js</PackagePath>
+      <Modified>2016-12-15T16:53:04.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2015-10-10T20:09:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+      <Modified>2016-12-15T12:07:21.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+      <Modified>2016-11-27T15:52:14.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-12-15T16:51:25.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2016-11-27T15:50:40.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-10-10T20:09:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\test.txt">
+      <PackagePath>test.txt</PackagePath>
+      <Modified>2016-11-28T14:18:34.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2015-10-10T20:09:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-28T14:18:40.943</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
