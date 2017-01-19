@@ -1,6 +1,4 @@
-﻿//var button = document.getElementById('searchdatabutton');
-//button.addEventListener('click', clickResponse, false);
-function clickListener() {
+﻿function clickListener() {
     var oReq2 = new XMLHttpRequest();
     oReq2.open("GET", "http://www.nbp.pl/kursy/xml/dir.txt", false);
     var Array = [];
@@ -53,10 +51,32 @@ function printKurs(dates) {
     var div = document.getElementById('divfornewkurs');
     div.winControl;
     for (i = 0; i < pozycja.length; i++) {
-        var names = pozycja[i].getElementsByTagName("nazwa_waluty")[0].textContent;
-        var przelicznik = pozycja[i].getElementsByTagName("przelicznik")[0].textContent;
-        var kod = pozycja[i].getElementsByTagName("kod_waluty")[0].textContent;
-        var kurs = pozycja[i].getElementsByTagName("kurs_sredni")[0].textContent;
+
+        if (dates[0] == 'c') {
+            var names = pozycja[i].getElementsByTagName("nazwa_waluty")[0].textContent;
+            var przelicznik = pozycja[i].getElementsByTagName("przelicznik")[0].textContent;
+            var kod = pozycja[i].getElementsByTagName("kod_waluty")[0].textContent;
+            var kurs = pozycja[i].getElementsByTagName("kurs_kupna")[0].textContent;
+
+        }
+        else {
+
+            if (dates[0] == 'h') {
+                var names = pozycja[i].getElementsByTagName("nazwa_kraju")[0].textContent;
+                var przelicznik = pozycja[i].getElementsByTagName("przelicznik")[0].textContent;
+                var kod = pozycja[i].getElementsByTagName("nazwa_waluty")[0].textContent;
+                var kurs = pozycja[i].getElementsByTagName("kurs_kupna")[0].textContent;
+            }
+            else {
+                var names = pozycja[i].getElementsByTagName("nazwa_waluty")[0].textContent;
+                var przelicznik = pozycja[i].getElementsByTagName("przelicznik")[0].textContent;
+                var kod = pozycja[i].getElementsByTagName("kod_waluty")[0].textContent;
+                var kurs = pozycja[i].getElementsByTagName("kurs_sredni")[0].textContent;
+            }
+            
+        }
+
+
             
             var div2 = document.createElement('div');
             

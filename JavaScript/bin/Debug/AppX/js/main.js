@@ -24,20 +24,6 @@ for (i = 0; i < pozycja.length; i++) {
     }
 
 
-//WinJS.Namespace.define("Sample", {
-//    outputCommand: WinJS.UI.eventHandler(function (ev) {
-//        var status = document.querySelector(".status");
-//        var command = ev.currentTarget;
-//        if (command.winControl) {
-//            var label = command.winControl.label || command.winControl.icon || "a";
-//            var section = command.winControl.section || "";
-//            var msg = section + " command " + label + " was pressed";
-//        }
-//    })
-//});
-
-//WinJS.UI.processAll();
-
 
 (function () {
     "use strict";
