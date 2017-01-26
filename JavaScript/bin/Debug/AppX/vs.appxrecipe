@@ -28,7 +28,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\dates.html">
       <PackagePath>dates.html</PackagePath>
-      <Modified>2016-12-15T16:54:04.971</Modified>
+      <Modified>2017-01-26T18:10:10.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\default.html">
       <PackagePath>default.html</PackagePath>
@@ -101,7 +101,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\js\scriptfordir.js">
       <PackagePath>js\scriptfordir.js</PackagePath>
-      <Modified>2017-01-18T16:09:28.142</Modified>
+      <Modified>2017-01-26T18:19:21.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -109,7 +109,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\base.js">
       <PackagePath>WinJS\js\base.js</PackagePath>
-      <Modified>2016-12-15T12:07:21.352</Modified>
+      <Modified>2017-01-26T16:44:32.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\js\ui.js">
       <PackagePath>WinJS\js\ui.js</PackagePath>
@@ -117,7 +117,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2016-12-15T16:51:25.026</Modified>
+      <Modified>2017-01-26T18:18:28.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\админ\Documents\Visual Studio 2015\Projects\JavaScript\JavaScript\WinJS\css\ui-dark.css">
       <PackagePath>WinJS\css\ui-dark.css</PackagePath>

@@ -3,6 +3,18 @@
 }
 /* Template for the items in the ListViews in this sample */
 
+#databutton{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:100px;
+    margin-left:100px;
+    background-color:#000;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    padding:3px;
+    cursor:pointer;
+}
 .navbar {
     background-color:#000;
     height:70px;
@@ -14,7 +26,7 @@
     overflow-y:auto;
     width:100%;
     height:100%;
-    visibility:hidden;
+    /*visibility:hidden;*/
 }
 #divfornewkurs div{
     border:solid 1px white;
@@ -124,6 +136,29 @@
     margin-top:20px;
     margin-left:10px;
        float:left;
+    background-color:#fff;
+    border: 1px solid #000;
+    border-radius:10px;
+}
+#backtodatas{
+    width:100px;
+    height:30px;
+    margin-top:20px;
+    margin-left:10px;
+    float:left;
+    background-color:#000;
+    border: 1px solid #fff;
+    color:#fff;
+    border-radius:10px;
+    display:none;
+}
+#backtodatas:hover{
+     width:100px;
+    height:30px;
+    color:#000;
+    margin-top:20px;
+    margin-left:10px;
+    float:left;
     background-color:#fff;
     border: 1px solid #000;
     border-radius:10px;

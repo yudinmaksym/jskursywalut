@@ -1,48 +1,69 @@
-﻿function clickListener() {
-    var oReq2 = new XMLHttpRequest();
+﻿function init() {
+    document.getElementById('divfornewkurs').innerHTML = "";
+    document.getElementById('backtodatas').style.display = "none";
+    var div = document.getElementById("divfornewkurs")
+    div.winControl;
+var oReq2 = new XMLHttpRequest();
     oReq2.open("GET", "http://www.nbp.pl/kursy/xml/dir.txt", false);
-    var Array = [];
     oReq2.send(null);
     var dirresp = oReq2.responseText;
+         
         var start = 0;
         var end = 11;
         var array = [];
-        var typtabelki = document.getElementById('typtabeli');
-        var miesiac = document.getElementById('miesiac');
-        var dzien = document.getElementById('dzien');
-        var texttyp = typtabelki.options[typtabelki.selectedIndex].text;
-        var textmiesanc = miesiac.options[miesiac.selectedIndex].text;
-        var textdzien = dzien.options[dzien.selectedIndex].text;
-        for (i = 0; i < dirresp.length; i++) {
-           
-            var dates = dirresp.substring(start, end);
-            start += 13;
-            end += 13;
-            i += 13;
-            var typtabeli = dates.substr(0, 1);
-                                            var year = dates.substr(5, 2);
-                                            var month = dates.substr(7, 2);
-                                            var day = dates.substr(9, 2);
-                                            if(typtabeli == texttyp && month == textmiesanc && day == textdzien)
-                                            {
-                                                document.getElementById('divfornewkurs').style.visibility = 'visible';
-                                                document.getElementById('Error').innerHTML = ""
-                                                printKurs(dates);
-                                                break;
-                                            }
-                                            else {
-                                                document.getElementById('Error').innerHTML="Nie ma kursow na taki daty"
-                                            }
+        var res = dirresp.split("\r\n");
+        for (i = 0; i < res.length; i++) {
+            var sub = res[i].substr(5, 7)
+            var typtabeli = res[i].substr(0,1)
+            var year = sub.substr(0, 2)
+            var month = sub.substr(2, 2)
+            var day = sub.substr(4, 6)
+            var onealldat = "Typ tabeli: " + typtabeli + " " + "Data: " + day + "-" + month + "-" + year;
+
+            var opt = document.createElement('button');
+            opt.id = "databutton";
+            opt.name = res[i];
+            opt.value = onealldat;
+            opt.innerHTML = onealldat;
+            
+            div.appendChild(opt);
+            WinJS.UI.processAll();
+
+
+
         }
-
-
-
 }
+
+
+function getAncestor(node, tagName) {
+    tagName = tagName.toUpperCase();
+    while (node) {
+        if (node.nodeType == 1 && node.nodeName == tagName) {
+            return node;
+        }
+        node = node.parentNode;
+    }
+    return null;
+}
+
+
+
+//element.onclick = function (event) {
+//    event = event || window.event; // (*)
+//    var target = $(event.target);
+//    if (target.is("button")) {
+//        printKurs(this.name);
+//    }
+//    // Теперь event - объект события во всех браузерах.
+//};
+
+
     
-function printKurs(dates) {
+function printKurs(name) {
     document.getElementById('divfornewkurs').innerHTML = "";
+    document.getElementById('backtodatas').style.display = "block";
     var oReq3 = new XMLHttpRequest();
-    oReq3.open("GET", "http://www.nbp.pl/kursy/xml/"+dates+".xml", false);
+    oReq3.open("GET", "http://www.nbp.pl/kursy/xml/" + name + ".xml", false);
     var Array = [];
     oReq3.send(null);
     var dirresp = oReq3.responseXML;
@@ -52,7 +73,7 @@ function printKurs(dates) {
     div.winControl;
     for (i = 0; i < pozycja.length; i++) {
 
-        if (dates[0] == 'c') {
+        if (name[0] == 'c') {
             var names = pozycja[i].getElementsByTagName("nazwa_waluty")[0].textContent;
             var przelicznik = pozycja[i].getElementsByTagName("przelicznik")[0].textContent;
             var kod = pozycja[i].getElementsByTagName("kod_waluty")[0].textContent;
@@ -61,7 +82,7 @@ function printKurs(dates) {
         }
         else {
 
-            if (dates[0] == 'h') {
+            if (name[0] == 'h') {
                 var names = pozycja[i].getElementsByTagName("nazwa_kraju")[0].textContent;
                 var przelicznik = pozycja[i].getElementsByTagName("przelicznik")[0].textContent;
                 var kod = pozycja[i].getElementsByTagName("nazwa_waluty")[0].textContent;
@@ -109,8 +130,39 @@ function printKurs(dates) {
         {
             ready: function (element, options) {
                   document.getElementById("mainpage").addEventListener("click", NextPage, false);
-                document.getElementById("close").addEventListener("click", CloseApp, false);
-                document.getElementById("searchdatabutton").addEventListener("click", clickListener, false);
+                  document.getElementById("close").addEventListener("click", CloseApp, false);
+                  document.getElementById("backtodatas").addEventListener("click", init, false);
+                //document.getElementById("databutton").addEventListener("click", printKurs(dates), false);
+                window.addEventListener('load', init());
+                document.body.addEventListener("click", function (event) {
+                    var target = getAncestor(event.target, "button");
+                    if (event.target.tagName == "DIV")
+                    {
+                        
+                    }
+                    else {
+                            if (event.target.id == "mainpage") {
+                                NextPage();
+                            }
+                            else {
+                                if (event.target.id == "close") {
+                                    CloseApp();
+                                }
+                                else {
+                                    if (event.target.id == "backtodatas"){
+                                        init();
+                                    }
+                                    else {
+                                        if (event.target.tagName == "BUTTON") {
+                                            printKurs(target.name);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    
+                    
+                }, false);
             },
         });
         function NextPage() {
